@@ -6,7 +6,6 @@ DigitalOut led1(LED1);
 DigitalOut led2(LED2);
 
 InterruptIn sw2(SW2);
-
 InterruptIn sw3(SW3);
 
 EventQueue queue1(32 * EVENTS_EVENT_SIZE);
