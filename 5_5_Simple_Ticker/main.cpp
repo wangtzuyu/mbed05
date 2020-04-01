@@ -3,7 +3,7 @@
 
 Ticker time_up;
 
-DigitalOut redLED(LED1);
+DigitalOut redLED(LED3);
 
 
 void blink(){
@@ -15,7 +15,7 @@ void blink(){
 
 int main(){
 
-    time_up.attach( &blink, 0.2 );
+    time_up.attach( &blink, 0.5 );
 
     while(1);
 
